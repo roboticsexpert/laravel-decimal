@@ -1,0 +1,28 @@
+{
+    "name": "roboticsexpert/laravel-decimal",
+    "description": "Easy way to add decimal functionality to your laravel models",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Roboticsexpert\\LaravelDecimal\\": "src/",
+            "Roboticsexpert\\LaravelDecimal\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mahdi Youseftabar",
+            "email": "roboticsexpert@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Roboticsexpert\\LaravelDecimal\\LaravelDecimalServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "ext-decimal": "*"
+    }
+}
