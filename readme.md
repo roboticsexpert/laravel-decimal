@@ -14,6 +14,11 @@ composer require roboticsexpert/laravel-decimal
 ```
 
 ## Usage
+first you need to change your migration like this
+```php
+$table->unsignedDecimal('your_field', 32, 16);
+
+```
 
 after installing, go to that model you need have decimal attribute and add that field in cast array like this:
 
