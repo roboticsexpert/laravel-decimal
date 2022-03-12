@@ -19,7 +19,8 @@ after installing, go to that model you need have decimal attribute and add that 
 
 ```php 
 
-use roboticsexpert/LaravelDecimal/DecimalCast;
+use Roboticsexpert\LaravelDecimal\DecimalCast;
+
 
 class YourModel extend Model {
     public $cast=[
