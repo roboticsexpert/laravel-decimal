@@ -1,6 +1,6 @@
 # Laravel Decimal
 
-this package use php-decimal for handle decimal. you can see documentation with this link:
+this package uses php-decimal for handle decimal. you can see documentation with this link:
 
 https://php-decimal.io
 
